@@ -34,7 +34,6 @@ Gem::Specification.new do |s|
      "lib/redis/distributed_marshaled.rb",
      "lib/redis/factory.rb",
      "lib/redis/marshaled_client.rb",
-     "lib/redis/namespace.rb",
      "redis-store.gemspec",
      "spec/cache/merb/redis_store_spec.rb",
      "spec/cache/rails/redis_session_store_spec.rb",
