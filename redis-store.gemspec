@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{redis-store}
-  s.version = "1.0.0.beta3"
+  s.name = %q{nono-redis-store}
+  s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Luca Guidi"]
-  s.date = %q{2010-09-10}
+  s.authors = ["Luca Guidi", "Bruno Michel"]
+  s.date = %q{2010-11-15}
   s.description = %q{Namespaced Rack::Session, Rack::Cache, I18n and cache Redis stores for Ruby web frameworks.}
-  s.email = %q{guidi.luca@gmail.com}
+  s.email = %q{brmichel@free.fr}
   s.extra_rdoc_files = [
     "README.md"
   ]
@@ -64,7 +64,7 @@ Gem::Specification.new do |s|
      "spec/spec_helper.rb",
      "tasks/redis.tasks.rb"
   ]
-  s.homepage = %q{http://github.com/jodosha/redis-store}
+  s.homepage = %q{http://github.com/nono/redis-store/tree/nono}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
